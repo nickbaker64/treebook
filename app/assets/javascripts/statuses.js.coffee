@@ -4,4 +4,7 @@
 
 $ ->
 	$('.status').hover (event) ->
-		$(this).toggleClass("hover")
+		$(this) .toggleClass("hover")
+
+$(document) .ready(ready)
+$(document) .on('page:load', ready)
